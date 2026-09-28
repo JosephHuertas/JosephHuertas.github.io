@@ -1,0 +1,34 @@
+/* Basic reset */
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+	font-family: "Pixelify Sans", sans-serif;
+}
+	
+.viewer {
+position: relative;
+height: 100vh;
+	width: 100vw;
+
+}.viewer img {
+	position: absolute;
+	inset: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.viewer .description {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    font-size: 4rem;
+    padding-left: 1px;
+    padding-right: 1.5px;
+    text-shadow: 0px 0px #FFFFFF;
+    color: #FFFFFF;
+    border-radius: 15rem;
+    border-width: 0.5px;
+}
